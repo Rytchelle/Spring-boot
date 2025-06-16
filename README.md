@@ -53,3 +53,31 @@ Conforme o vídeo, o curso aborda:
 
 ---
 
+
+## 💡 Como estruturar 
+
+Abaixo está um exemplo de estrutura para esse repositório:
+
+```bash
+spring-boot-curso/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com.example.meu_primeiro_springboot/
+│   │   │       ├── controller/
+│   │   │       ├── service/
+│   │   │       ├── repository/
+│   │   │       ├── model/
+│   │   │       ├── exceptions/
+│   │   │       ├── security/
+│   │   │       └── MeuPrimeiroSpringbootApplication.java
+│   └── resources/
+│       └── application.properties
+│
+├── test/
+│   └── MeuPrimeiroSpringbootApplicationTests.java
+│
+├── pom.xml
+└── README.md
+
